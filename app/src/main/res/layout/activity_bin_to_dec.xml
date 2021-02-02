@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BinToDecActivity">
+
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Input Binary number and program will convert it to Decimal"
+        android:textStyle="bold"
+        android:textColor="#171616"
+        android:textSize="30sp"
+        android:background="#fff">
+    </TextView>
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginStart="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  Binary Number:"
+        android:textStyle="bold"
+        android:textColor="#171616"
+        android:textSize="30sp"
+        android:background="#fff">
+    </TextView>
+
+        <android.inputmethodservice.ExtractEditText
+            android:layout_marginTop="20dp"
+            android:id="@+id/binary_ET"
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:hint="0"
+            android:textSize="25sp"
+            android:textStyle="bold">
+
+        </android.inputmethodservice.ExtractEditText>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/convertBinButton"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Convert to Decimal"
+            android:textSize="35sp"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:background="#fff">
+        </androidx.appcompat.widget.AppCompatButton>
+
+
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/decimal_TV"
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text=""
+            android:textStyle="bold"
+            android:textColor="#171616"
+            android:textSize="30sp"
+            android:background="#fff">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+</FrameLayout>

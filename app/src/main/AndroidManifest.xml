@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mathtime">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".NumberCalculatorActivity"></activity>
+        <activity android:name=".DecToBinActivity" />
+        <activity android:name=".BinToDecActivity" />
+        <activity android:name=".GCD_LCMActivity" />
+        <activity android:name=".QuadraticEquationActivity" />
+        <activity android:name=".PrimeNumberCalculatorActivity" />
+        <activity android:name=".TestActivity" />
+        <activity android:name=".MainPageActivity" />
+        <activity android:name=".SignInActivity" />
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".AuthenticationActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

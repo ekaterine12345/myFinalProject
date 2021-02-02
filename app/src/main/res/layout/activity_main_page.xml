@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainPageActivity">
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:scaleType="centerCrop"
+        android:src="@mipmap/math_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:id="@+id/buttonTest"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="write a test"
+            android:textAllCaps="false"
+            android:textColor="@android:color/holo_purple"
+            android:textSize="30sp"
+            android:background="@android:color/white"/>
+
+
+        <Button
+            android:id="@+id/buttonPNC"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textAllCaps="false"
+            android:textColor="@android:color/holo_purple"
+            android:text="prime number calculator"
+            android:background="@android:color/white"
+            android:textSize="30sp">
+        </Button>
+
+
+        <Button
+            android:id="@+id/buttonQE"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textAllCaps="false"
+            android:textColor="@android:color/holo_purple"
+            android:text="quadratic equation"
+            android:background="@android:color/white"
+            android:textSize="30sp">
+        </Button>
+
+        <Button
+            android:id="@+id/buttonGCD_LCM"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textAllCaps="false"
+            android:textColor="@android:color/holo_purple"
+            android:text="find gcd/lcm of two numbers"
+            android:background="@android:color/white"
+            android:textSize="30sp">
+        </Button>
+
+
+        <Button
+            android:id="@+id/buttonBinToDec"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textAllCaps="false"
+            android:textColor="@android:color/holo_purple"
+            android:text="Binary to Decimal convertor"
+            android:background="@android:color/white"
+            android:textSize="30sp">
+        </Button>
+
+        <Button
+            android:id="@+id/buttonDecToBin"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textAllCaps="false"
+            android:textColor="@android:color/holo_purple"
+            android:text="Decimal to Binary convertor"
+            android:background="@android:color/white"
+            android:textSize="30sp">
+        </Button>
+
+        <Button
+            android:id="@+id/buttonCalculatorN"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textAllCaps="false"
+            android:textColor="@android:color/holo_purple"
+            android:text="Number Calculator"
+            android:background="@android:color/white"
+            android:textSize="30sp">
+        </Button>
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</FrameLayout>

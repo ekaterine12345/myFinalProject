@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GCD_LCMActivity">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Input two integers and program will output their gcd and lcm"
+        android:textStyle="bold"
+        android:textColor="#171616"
+        android:textSize="30sp"
+        android:background="#fff">
+    </TextView>
+
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginStart="70dp"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text=" a: "
+            android:textSize="35sp"
+            android:textStyle="italic">
+
+        </TextView>
+
+
+        <EditText
+            android:id="@+id/EditTextA"
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:hint="0"
+            android:textSize="25sp"
+            android:textStyle="bold">
+
+        </EditText>
+
+        <TextView
+            android:layout_marginStart="70dp"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text=" b: "
+            android:textSize="35sp"
+            android:textStyle="italic">
+
+        </TextView>
+
+
+        <EditText
+            android:id="@+id/EditTextB"
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:hint="0"
+            android:textSize="25sp">
+
+        </EditText>
+
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonCalculate"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" calculate GCD/LCM"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:background="#fff">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/answerGCD_TV"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text=""
+        android:textStyle="bold"
+        android:textColor="#171616"
+        android:textSize="30sp"
+        android:background="#fff">
+
+    </TextView>
+
+
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/answerLCM_TV"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text=""
+        android:textStyle="bold"
+        android:textColor="#171616"
+        android:textSize="30sp"
+        android:background="#fff">
+
+    </TextView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

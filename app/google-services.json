@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "134272083526",
+    "project_id": "authenticationmathtime",
+    "storage_bucket": "authenticationmathtime.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:134272083526:android:992ba8a719a6aed4fccc47",
+        "android_client_info": {
+          "package_name": "com.example.mathtime"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "134272083526-uf654bni00nvv2fe1h6v8mt8p1bttbjt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACmU9XRQ5s-TS29wnHRIt6ryd9IwLJg3s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "134272083526-uf654bni00nvv2fe1h6v8mt8p1bttbjt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
