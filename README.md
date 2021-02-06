@@ -1,5 +1,5 @@
-# myFinalProject MathTime
-  This app is written for Kotlin. It combines several well-known and beloved mathematical tasks.
+#                                MathTime
+  This android app is written for Kotlin. It combines several well-known and beloved mathematical tasks.
   You can register on it using your email and password.
 When the app is launched, two buttons will appear. In case you are not registered yet, you need to click Sign Up and register. 
 If you are already registered, you need to click Sign In, after which you will be taken to the main page of the application. 
